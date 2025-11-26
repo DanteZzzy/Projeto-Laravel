@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Laravel
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/logs
+/storage/framework
+/bootstrap/cache
+/storage/*.key
+/storage/pail
+
+# IDEs
+/.vscode
+/.idea
+/.fleet
+/.nova
+/.zed
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PHP
+.phpunit.result.cache
+.phpactor.json
+
+# Docker
+docker-compose.override.yml
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+/auth.json

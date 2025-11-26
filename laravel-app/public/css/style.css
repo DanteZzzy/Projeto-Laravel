@@ -1,0 +1,162 @@
+/* RESET BÁSICO */
+* {
+    box-sizing: border-box;
+}
+
+/* ====== BASE ====== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #dfe7f1);
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== CONTAINER ====== */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* ====== CARD ====== */
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ====== TÍTULOS ====== */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    margin-top: -10px;
+}
+
+/* ====== BOTÕES ====== */
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-success {
+    background: #2ecc71;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background: #27ae60;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+.btn-danger {
+    background: #e74c3c;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background: #c0392b;
+}
+
+/* GRUPO DE BOTÕES */
+.btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-action {
+    width: 80px;        /* largura fixa */
+    height: 30px;        /* altura padronizada */
+    text-align: center; /* centraliza o texto */
+}
+
+/* ÁREA SUPERIOR */
+.actions {
+    margin-bottom: 20px;
+}
+
+/* MENSAGEM VAZIA */
+.empty-message {
+    text-align: center;
+    padding: 35px;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.btn-secondary {
+    background: #04f095;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #3ea53e;
+}
+
+/* ====== TABELA ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #34495e;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+tr:hover {
+    background: #f8f9fa;
+}
+
+/* ====== FORM ====== */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #34495e;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #dcdde1;
+    transition: border 0.2s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
